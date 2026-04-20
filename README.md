@@ -9,7 +9,7 @@ This project demonstrates how to securely configure an Amazon S3 bucket using en
 - Configured a bucket policy to deny unencrypted uploads
 - Tested upload failures without encryption and success with SSE-KMS
 - Implemented IP-based access control and tested using a mobile hotspot
-- Recovered from a misconfigured policy lockout using AWS CloudShell
+- Accidently locked myself out of the bucket and used AWS Cloudshell to regain access
 
 ## Tools Used
 - Amazon S3
