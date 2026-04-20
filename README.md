@@ -1,4 +1,4 @@
- AWS S3 Security Lab
+# AWS S3 Security Lab
 
 ## Overview
 This project demonstrates how to securely configure an Amazon S3 bucket using encryption and access control policies.
