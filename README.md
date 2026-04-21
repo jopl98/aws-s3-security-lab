@@ -25,6 +25,8 @@ This project demonstrates how to securely configure an Amazon S3 bucket using en
 
 ## Screenshots
 ### Upload success
+Successful upload using SSE-KMS enforced bucket policy.
 ![Upload Success](CA480DFA-C321-4255-BE14-B8BF7830E14D.PNG)
 ### CloudShell Recovery
+Recovered access after misconfigured bucket policy using AWS CloudShell.
 ![CloudShell Recovery](IMG_595F6AB8-2DEF-4E1C-B712-3C6CC6A7BF14.JPEG)
