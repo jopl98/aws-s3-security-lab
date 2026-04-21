@@ -24,7 +24,7 @@ This project demonstrates how to securely configure an Amazon S3 bucket using en
 - CloudShell can be used to recover access safely
 
 ## Screenshots
-###Upload success
+### Upload success
 ![Upload Success](CA480DFA-C321-4255-BE14-B8BF7830E14D.PNG)
-###CloudShell Recovery
+### CloudShell Recovery
 ![CloudShell Recovery](IMG_595F6AB8-2DEF-4E1C-B712-3C6CC6A7BF14.JPEG)
