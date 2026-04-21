@@ -1,7 +1,7 @@
 # AWS S3 Security Lab
 
 ## Overview
-This project demonstrates how to securely configure an Amazon S3 bucket using encryption and access control policies.
+This lab simulates real-world S3 security misconfigurations and demonstrates how to enforce encryption and recover from access lockout scenarios.
 
 ## What I Implemented
 - Created an S3 bucket in ap-southeast-2
@@ -10,6 +10,7 @@ This project demonstrates how to securely configure an Amazon S3 bucket using en
 - Tested upload failures without encryption and success with SSE-KMS
 - Implemented IP-based access control and tested using a mobile hotspot
 - Accidently locked myself out of the bucket and used AWS Cloudshell to regain access
+- Identified and resolved an access lockout caused by an overly restrictive bucket policy
 
 ## Tools Used
 - Amazon S3
@@ -24,7 +25,7 @@ This project demonstrates how to securely configure an Amazon S3 bucket using en
 - CloudShell can be used to recover access safely
 
 ## Screenshots
-### Upload success
+### Upload Success
 Successful upload using SSE-KMS enforced bucket policy.
 ![Upload Success](CA480DFA-C321-4255-BE14-B8BF7830E14D.PNG)
 ### CloudShell Recovery
